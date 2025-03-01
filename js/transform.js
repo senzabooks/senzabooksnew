@@ -3,6 +3,9 @@ let degrees = 0;
 image.addEventListener("click", () => {
   
   image.style.transform = `scale(1.2)`;
+  setTimeout(()=>{
+    image.style.transform = `scale(1)`;
+  },200)
 });
 
 
