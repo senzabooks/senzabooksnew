@@ -1,10 +1,20 @@
 const image = document.getElementById("main-img");
 let degrees = 0;
 image.addEventListener("click", () => {
-  degrees += 360;
-  image.style.transform = `rotate(${degrees}deg)`;
+  
+  image.style.transform = `scale(1.2)`;
 });
 
+
+
+
+
+
+
+
+
+// degrees += 360;
+  // image.style.transform = `rotate(${degrees}deg)`;
 /*
 _______    ______  ________   ______  ________  ______   ______   __    __                                                          
 |       \  /      \|        \ /      \|        \|      \ /      \ |  \  |  \                                                         
