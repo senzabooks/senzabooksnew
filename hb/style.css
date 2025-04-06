@@ -56,7 +56,7 @@ a:link {
   font-style: normal;
   font-size: 22px;
   color: rgb(0, 0, 0);
-  /* text-shadow: rgb(255, 255, 255) 1px 0 10px; */
+  text-shadow: rgb(255, 255, 255) 1px 0 10px;
   line-height: 24px;
   border: none;
   outline: none;
