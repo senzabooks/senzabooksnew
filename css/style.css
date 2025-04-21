@@ -7,7 +7,7 @@ body {
   max-width: 600px;
   margin: 0 auto !important;
   float: none !important;
-  background: #008833;
+  background: #ffffff;
   /* animation: backgroundanimate 4s steps(1) infinite
 } */
 
@@ -54,8 +54,8 @@ a:link {
   font-family: Helvetica, Arial, sans-serif;
   font-style: normal;
   font-size: 12px;
-  color: rgb(255, 255, 255);
-  text-shadow: #FC0 1px 0 10px;
+  color: rgb(50, 135, 0);
+  text-shadow: rgb(202, 202, 202) 1px 0 10px;
   line-height: 18px;
   border: none;
   outline: none;
