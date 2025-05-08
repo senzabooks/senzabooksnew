@@ -13,12 +13,79 @@
     src: url(StandardsMono-Regular.otf);
   }
 
-body{margin: 0; padding:0;}
+*{
+    margin: 0;
+}
   
-  .main{
+#scrollContainer{
+    padding: 22px;
+    overflow-x: hidden;
+max-width: 100vw;
     font-family: "Standards";
     font-size: 22px;
     align-items: center;
     justify-content: center;
-text-align: center;}
-p{text-align: center;}
+    text-align: center;}
+
+p{text-align: center;
+margin-bottom: 22px;}
+
+
+
+/* Link styling in the top-left corner */
+.download-link {
+    margin: 10px;
+    position: fixed;
+    color: orange;
+  }
+  
+ 
+  .main {
+    padding: 1rem;
+  }
+  
+
+  .font-standards-underlined {
+    font-family: StandardsU;
+  }
+  
+  .font-standards-mono {
+    font-family: StandardsM;
+  }
+  
+  
+  .section-flex {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+ 
+  .flex-block {
+    width: 20vw;
+    text-wrap: wrap;
+    text-align: left;
+  }
+  
+  .wide-block {
+    width: 30vw;
+    text-wrap: wrap;
+    text-align: left;
+  }
+  
+
+  .ascii-art {
+    font-size: 5px;
+    font-family: StandardsM;
+    line-height: 90%;
+    margin-bottom: 22px;
+  }
+
+  @media (max-width: 600px) {
+    .ascii-art {
+        font-size: 3px;
+        font-family: StandardsM;
+        line-height: 90%;
+        margin-bottom: 22px;
+      }
+  }
+  
